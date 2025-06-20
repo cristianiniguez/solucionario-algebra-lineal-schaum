@@ -1,0 +1,37 @@
+# CAPITULO 1 - SISTEMAS DE ECUACIONES LINEALES
+
+## RESOLUCIÓN DE ECUACIONES LINEALES
+
+1.49. Resolver:
+
+a. $
+\begin{cases}
+2x & - &  y & - & 3z & = &  5 \\
+3x & - & 2y & + & 2z & = &  5 \\
+5x & - & 3y & - &  z & = & 16 \\
+\end{cases}
+$
+
+$
+\begin{aligned}
+-3L_1 + 2L_2 & \rightarrow L_2 \\
+-5L_1 + 2L_3 & \rightarrow L_3
+\end{aligned}
+\Rightarrow
+\begin{cases}
+2x & - & y & - &  3z & = &  5 \\
+   & - & y & + & 13z & = & -5 \\
+   & - & y & + & 13z & = &  7 \\
+\end{cases}
+$
+
+$
+-L_2 + L_3 \rightarrow L_3 \Rightarrow
+\begin{cases}
+2x & - & y & - &  3z & = & 5 \\
+   & - & y & + & 13z & = & -5 \\
+   &   &   &   &  0 & = & 12 \\
+\end{cases}
+$
+
+No hay solución

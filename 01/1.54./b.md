@@ -1,0 +1,63 @@
+# CAPITULO 1 - SISTEMAS DE ECUACIONES LINEALES
+
+## MATRICES ESCALONADAS Y OPERACIONES ELEMENTALES ENTRE FILAS
+
+1.54. Reducir $A$ a forma escalonada y luego a su forma canónica por filas, siendo:
+
+b. $
+A =
+\begin{pmatrix}
+2 &  3 & -2 &  5 & 1 \\
+3 & -1 &  2 &  0 & 4 \\
+4 & -5 &  6 & -5 & 7 \\
+\end{pmatrix}
+$
+
+$
+\begin{aligned}
+-3L_1 + 2L_2 & \rightarrow L_2 \\
+-4L_1 + 2L_3 & \rightarrow L_3
+\end{aligned}
+\Rightarrow
+\begin{pmatrix}
+2 &   3 & -2 &   5 &  1 \\
+0 & -11 & 10 & -15 &  5 \\
+0 & -22 & 20 & -30 & 10 \\
+\end{pmatrix}
+$
+
+$
+-2L_2 + L_3 \rightarrow L_3 \Rightarrow
+\begin{pmatrix}
+2 &   3 & -2 &   5 &  1 \\
+0 & -11 & 10 & -15 &  5 \\
+0 &   0 &  0 &   0 &  0 \\
+\end{pmatrix}
+$ (Forma escalonada)
+
+$
+-\frac{1}{11}L_2 \rightarrow L_2 \Rightarrow
+\begin{pmatrix}
+2 & 3 &             -2 &             5 &             1 \\
+0 & 1 & -\frac{10}{11} & \frac{15}{11} & -\frac{5}{11} \\
+0 & 0 &              0 &             0 &             0 \\
+\end{pmatrix}
+$
+
+$
+-3L_2 + L_1 \rightarrow L_1 \Rightarrow
+\begin{pmatrix}
+2 & 0 &   \frac{8}{11} & \frac{10}{11} & \frac{26}{11} \\
+0 & 1 & -\frac{10}{11} & \frac{15}{11} & -\frac{5}{11} \\
+0 & 0 &              0 &             0 &             0 \\
+\end{pmatrix}
+$
+
+$
+\frac{1}{2}L_1 \rightarrow L_1 \Rightarrow
+\begin{pmatrix}
+1 & 0 &   \frac{4}{11} &  \frac{5}{11} & \frac{13}{11} \\
+0 & 1 & -\frac{10}{11} & \frac{15}{11} & -\frac{5}{11} \\
+0 & 0 &              0 &             0 &             0 \\
+\end{pmatrix}
+$ (Forma canónica por filas)
