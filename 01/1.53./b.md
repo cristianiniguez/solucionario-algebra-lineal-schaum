@@ -25,17 +25,19 @@ $
 \end{cases}
 $
 
-$L_2 + L_3 \rightarrow L_3 \Rightarrow
+$
+L_2 + L_3 \rightarrow L_3 \Rightarrow
 \begin{cases}
-2x & - & 4y & + & 3z & - & s & + & 2t & = & 0 \\
+2x & - & 4y & + & 3z & - &  s & + & 2t & = & 0 \\
    &   &    &   &  z & - &  s & + & 2t & = & 0 \\
    &   &    &   &    & - & 2s & - & 6t & = & 0 \\
 \end{cases}
 $
 
-$-\frac{1}{2}L_3 \rightarrow L_3 \Rightarrow
+$
+-\frac{1}{2}L_3 \rightarrow L_3 \Rightarrow
 \begin{cases}
-2x & - & 4y & + & 3z & - & s & + & 2t & = & 0 \\
+2x & - & 4y & + & 3z & - &  s & + & 2t & = & 0 \\
    &   &    &   &  z & - &  s & + & 2t & = & 0 \\
    &   &    &   &    &   &  s & + & 3t & = & 0 \\
 \end{cases}
@@ -43,4 +45,104 @@ $
 
 Variables libres: $y, t$. Por lo tanto $\dim W = 2$.
 
-$\{u_1, u_2\} = \{(2, 1, 0, 0, 0), (5, 0, -5, -3, 1)\}$
+$
+\begin{aligned}
+y = 1 \\
+t = 0 \\
+\end{aligned}
+\Rightarrow
+\begin{cases}
+2x & - & 4(1) & + & 3z & - & s & + & 2(0) & = & 0 \\
+   &   &      &   &  z & - & s & + & 2(0) & = & 0 \\
+   &   &      &   &    &   & s & + & 3(0) & = & 0 \\
+\end{cases}
+\Rightarrow
+\begin{cases}
+2x & + & 3z & - & s & = & 4 \\
+   &   &  z & - & s & = & 0 \\
+   &   &    &   & s & = & 0 \\
+\end{cases}
+$
+
+$
+L_3 + L_2 \rightarrow L_2
+\Rightarrow
+\begin{cases}
+2x & + & 3z & - & s & = & 4 \\
+   &   &  z &   &   & = & 0 \\
+   &   &    &   & s & = & 0 \\
+\end{cases}
+$
+
+$
+-3L_2 + L_3 + L_1 \rightarrow L_1
+\Rightarrow
+\begin{cases}
+2x & = & 4 \\
+ z & = & 0 \\
+ s & = & 0 \\
+\end{cases}
+\Rightarrow
+\begin{cases}
+x & = & 2 \\
+z & = & 0 \\
+s & = & 0 \\
+\end{cases}
+$
+
+$
+\Rightarrow u_1 = (2, 1, 0, 0, 0)
+$
+
+$
+\begin{aligned}
+y = 0 \\
+t = 1 \\
+\end{aligned}
+\Rightarrow
+\begin{cases}
+2x & - & 4(0) & + & 3z & - & s & + & 2(1) & = & 0 \\
+   &   &      &   &  z & - & s & + & 2(1) & = & 0 \\
+   &   &      &   &    &   & s & + & 3(1) & = & 0 \\
+\end{cases}
+\Rightarrow
+\begin{cases}
+2x & + & 3z & - & s & = & -2 \\
+   &   &  z & - & s & = & -2 \\
+   &   &    &   & s & = & -3 \\
+\end{cases}
+$
+
+$
+L_3 + L_2 \rightarrow L_2
+\Rightarrow
+\begin{cases}
+2x & + & 3z & - & s & = & -2 \\
+   &   &  z &   &   & = & -5 \\
+   &   &    &   & s & = & -3 \\
+\end{cases}
+$
+
+$
+-3L_2 + L_3 + L_1 \rightarrow L_1
+\Rightarrow
+\begin{cases}
+2x & = & 10 \\
+ z & = & -5 \\
+ s & = & -3 \\
+\end{cases}
+\Rightarrow
+\begin{cases}
+x & = &  5 \\
+z & = & -5 \\
+s & = & -3 \\
+\end{cases}
+$
+
+$
+\Rightarrow u_2 = (5, 0, -5, -3, 1)
+$
+
+Base: $\{u_1, u_2\} = \{(2, 1, 0, 0, 0), (5, 0, -5, -3, 1)\}$
+
+NOTA: En el libro la solución es incorrecta ($\dim W = 2; u_1 = (-2, 1, 0, 0, 0), u_2 = (5, 0, -5, -3, 1)$)
