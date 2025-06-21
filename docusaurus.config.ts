@@ -8,7 +8,7 @@ import rehypeKatex from 'rehype-katex'
 
 const config: Config = {
   title: 'Solucionario de Algebra Lineal de Schaum',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -63,13 +63,14 @@ const config: Config = {
   ],
 
   themeConfig: {
+    colorMode: { respectPrefersColorScheme: true },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Solucionario de Algebra Lineal de Schaum',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg'
+        alt: 'Logo de Tu Solucionario de Programación',
+        src: 'img/favicon.svg'
       },
       items: [
         {
