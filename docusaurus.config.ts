@@ -85,7 +85,7 @@ const config: Config = {
       links: [
         {
           title: 'Ejercicios',
-          items: [{ label: 'Índice', to: '/docs/' }]
+          items: [{ label: 'Índice', to: '/docs/00' }]
         },
         {
           title: 'Más',
