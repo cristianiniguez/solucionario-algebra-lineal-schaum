@@ -35,3 +35,5 @@ $
 $
 
 No hay solución
+
+NOTA: en el libro la solución es incorrecta $(1, -3, -2)$.
