@@ -30,7 +30,7 @@ $
 
 $
 \begin{aligned}
- -L_2 - 13L_3 & \rightarrow L_2 \\
+ -L_2 - 13L_3 & \rightarrow L_3 \\
 18L_2 - 13L_3 & \rightarrow L_4
 \end{aligned}
 \Rightarrow
@@ -42,7 +42,8 @@ $
 \end{pmatrix}
 $
 
-$-16L_3 - 24L_4 \rightarrow L_4 \Rightarrow
+$
+-16L_3 - 24L_4 \rightarrow L_4 \Rightarrow
 \begin{pmatrix}
 0 & 1 &   3 &  -2 \\
 0 & 0 & -13 &  11 \\
@@ -51,7 +52,10 @@ $-16L_3 - 24L_4 \rightarrow L_4 \Rightarrow
 \end{pmatrix}
 $ (Forma escalonada)
 
-$-\frac{1}{24}L_3 \rightarrow L_3 \Rightarrow
+NOTA: en el libro la solución también es correcta, pero se ha hecho de otra forma.
+
+$
+-\frac{1}{24}L_3 \rightarrow L_3 \Rightarrow
 \begin{pmatrix}
 0 & 1 &   3 & -2 \\
 0 & 0 & -13 & 11 \\
@@ -74,7 +78,8 @@ $
 \end{pmatrix}
 $
 
-$-\frac{1}{13}L_2 \rightarrow L_2 \Rightarrow
+$
+-\frac{1}{13}L_2 \rightarrow L_2 \Rightarrow
 \begin{pmatrix}
 0 & 1 & 3 & 0 \\
 0 & 0 & 1 & 0 \\
@@ -83,7 +88,8 @@ $-\frac{1}{13}L_2 \rightarrow L_2 \Rightarrow
 \end{pmatrix}
 $
 
-$-3L_2 + L_1 \rightarrow L_1 \Rightarrow
+$
+-3L_2 + L_1 \rightarrow L_1 \Rightarrow
 \begin{pmatrix}
 0 & 1 & 0 & 0 \\
 0 & 0 & 1 & 0 \\
@@ -91,5 +97,3 @@ $-3L_2 + L_1 \rightarrow L_1 \Rightarrow
 0 & 0 & 0 & 0 \\
 \end{pmatrix}
 $ (Forma canónica por filas)
-
----
