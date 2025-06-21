@@ -24,7 +24,7 @@ $
  x & + & 2y & + & 2z & = &  2 \\
    & - & 8y & - & 7z & = & -1 \\
    & - & 9y & - &  z & = & -8 \\
-   & + & 2y & + & 4z & = & -2 \\
+   &   & 2y & + & 4z & = & -2 \\
 \end{cases}
 $
 
@@ -35,23 +35,56 @@ $
 \end{aligned}
 \Rightarrow
 \begin{cases}
- x & + & 2y & + &  2z & = &    2 \\
-   & - & 8y & - &  7z & = &   -1 \\
-   &   &    &   & 55z & = &  -87 \\
-   &   &    &   & 18z & = &   -18 \\
+x & + & 2y & + &  2z & = &   2 \\
+  & - & 8y & - &  7z & = &  -1 \\
+  &   &    &   & 55z & = & -55 \\
+  &   &    &   & 18z & = & -18 \\
 \end{cases}
 $
 
 $
--18L_3 + 55L_4 \rightarrow L_4 \Rightarrow
+\begin{aligned}
+\frac{1}{55}L_3 \rightarrow L_3 \\
+\frac{1}{18}L_4 \rightarrow L_4
+\end{aligned}
+\Rightarrow
 \begin{cases}
- x & + & 2y & + &  2z & = &    2 \\
-   & - & 8y & - &  7z & = &   -1 \\
-   &   &    &   & 55z & = &  -87 \\
-   &   &    &   &   0 & = &  576 \\
+x & + & 2y & + & 2z & = &  2 \\
+  & - & 8y & - & 7z & = & -1 \\
+  &   &    &   &  z & = & -1 \\
+  &   &    &   &  z & = & -1 \\
 \end{cases}
 $
 
-No hay solución
+$
+\begin{aligned}
+ 7L_3 + L_2 & \rightarrow L_2 \\
+-2L_3 + L_1 & \rightarrow L_1 \\
+\end{aligned}
+\Rightarrow
+\begin{cases}
+x & + & 2y & &   & = &  4 \\
+  & - & 8y & &   & = & -8 \\
+  &   &    & & z & = & -1 \\
+\end{cases}
+$
 
----
+$
+-\frac{1}{8}L_2 \rightarrow L_2
+\Rightarrow
+\begin{cases}
+x & + & 2y & &   & = &  4 \\
+  &   &  y & &   & = &  1 \\
+  &   &    & & z & = & -1 \\
+\end{cases}
+$
+
+$
+-2L_2 + L_1 \rightarrow L_1
+\Rightarrow
+\begin{cases}
+x & = &  2 \\
+y & = &  1 \\
+z & = & -1 \\
+\end{cases}
+$
