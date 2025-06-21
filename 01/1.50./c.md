@@ -54,5 +54,3 @@ x & = & \frac{7}{2} - \frac{5}{2}t -2y \\
 z & = & \frac{1}{2} + \frac{1}{2}t \\
 \end{cases}
 $
-
----

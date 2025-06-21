@@ -35,5 +35,3 @@ $
 $
 
 No hay solución
-
----

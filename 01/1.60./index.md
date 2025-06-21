@@ -82,5 +82,3 @@ ax & + & by & = & e \\
    &   &  0 & = & 0 \\
 \end{cases}
 $ (El sistema tiene más de una solución)
-
----

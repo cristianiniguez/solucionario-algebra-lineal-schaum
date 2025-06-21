@@ -59,5 +59,3 @@ $-3L_2 + L_1 \rightarrow L_1 \Rightarrow
 0 & 0 &             0 &            0 \\
 \end{pmatrix}
 $ (Forma canónica por filas)
-
----

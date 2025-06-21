@@ -42,5 +42,3 @@ $$
 $$
 
 Entonces el sistema no tiene solución.
-
----
