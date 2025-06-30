@@ -1,0 +1,88 @@
+a. $u = (1, 0, 1)$, $v = (1, 2, 3)$, $w = (3, 2, 5)$.
+
+$$
+\begin{align*}
+
+xu + yv + zw &= 0 \\
+
+x \begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix} +
+y \begin{pmatrix} 1 \\ 2 \\ 3 \end{pmatrix} +
+z \begin{pmatrix} 3 \\ 2 \\ 5 \end{pmatrix} &=
+\begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix} \\
+
+\begin{pmatrix}
+x + y + 3z \\
+2y + 2z \\
+x + 3y + 5z
+\end{pmatrix} &=
+\begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix} \\
+
+\end{align*}
+$$
+
+$$
+\begin{align*}
+
+&\Rightarrow
+\begin{pmatrix}
+1 & 1 & 3 & | & 0 \\
+0 & 2 & 2 & | & 0 \\
+1 & 3 & 5 & | & 0
+\end{pmatrix} \\
+
+-L_1 + L_3 \rightarrow L_3
+&\Rightarrow
+\begin{pmatrix}
+1 & 1 & 3 & | & 0 \\
+0 & 2 & 2 & | & 0 \\
+0 & 2 & 2 & | & 0
+\end{pmatrix} \\
+
+\frac{1}{2}L_2 \rightarrow L_2
+&\Rightarrow
+\begin{pmatrix}
+1 & 1 & 3 & | & 0 \\
+0 & 1 & 1 & | & 0 \\
+0 & 2 & 2 & | & 0
+\end{pmatrix} \\
+
+-2L_2 + L_3 \rightarrow L_3
+&\Rightarrow
+\begin{pmatrix}
+1 & 1 & 3 & | & 0 \\
+0 & 1 & 1 & | & 0 \\
+0 & 0 & 0 & | & 0
+\end{pmatrix} \quad \text{Los vectores son linealmente dependientes} \\
+
+-L_2 + L_1 \rightarrow L_1
+&\Rightarrow
+\begin{pmatrix}
+1 & 0 & 2 & | & 0 \\
+0 & 1 & 1 & | & 0 \\
+0 & 0 & 0 & | & 0
+\end{pmatrix} \\
+
+\end{align*}
+$$
+
+$$
+\begin{align*}
+
+\begin{pmatrix}
+x + 2z \\
+y + z
+\end{pmatrix} &=
+\begin{pmatrix} 0 \\ 0 \end{pmatrix} \\
+
+\begin{pmatrix}   x \\  y \end{pmatrix} &=
+\begin{pmatrix} -2z \\ -z \end{pmatrix} \\
+
+\end{align*}
+$$
+
+$$
+\begin{align*}
+-2zu - zv + zw &= 0 \\
+    2u + v - w &= 0
+\end{align*}
+$$
